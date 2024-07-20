@@ -8,7 +8,7 @@ ecchi_ita_dannunzio_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_ethno_nationalist
-    interest_group = ig_petty_bourgeoisie
+    interest_group = ig_fascists
     birth_date = 1863.3.12
     traits = { romantic charismatic hedonist }
     interest_group_leader_usage = {
@@ -28,7 +28,7 @@ ecchi_ita_dannunzio_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_fascists
                 is_interest_group_type = ig_armed_forces
             }
         }
@@ -46,7 +46,7 @@ ecchi_ita_mussolini_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_fascist
-    interest_group = ig_petty_bourgeoisie
+    interest_group = ig_fascists
 	dna = ecchi_dna_benito_mussolini
     birth_date = 1883.7.29
     traits = { hedonist demagogue charismatic ambitious }
@@ -67,8 +67,8 @@ ecchi_ita_mussolini_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_petty_bourgeoisie
-                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_fascists
             }
         }
         earliest_usage_date = 1922.1.1
@@ -88,7 +88,7 @@ mr_ita_bugatti_ettore_character_template = {
 	interest_group = ig_industrialists
 	birth_date = 1881.9.15
 	historical = yes
-    ideology = ideology_market_liberal
+    ideology = ideology_positivist
 	traits = {
 		engineer
 		innovative
@@ -135,7 +135,7 @@ mr_ita_cavour_character_template = {
     last_name = ecchi_Benso
     culture = cu:north_italian
     female = no
-    interest_group = ig_industrialists
+    interest_group = ig_national_liberals
     birth_date = 1810.8.10
     historical = yes
     ideology = ideology_corporatist_leader
@@ -160,7 +160,7 @@ mr_ita_cavour_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
+            is_interest_group_type = ig_national_liberals
         }
         earliest_usage_date = 1847.1.1
         latest_usage_date = 1861.6.6
@@ -176,7 +176,7 @@ mr_ita_balbo_character_template = {
     last_name = ecchi_Balbo
     culture = cu:south_italian
     female = no
-    interest_group = ig_armed_forces
+    interest_group = ig_fascists
     birth_date = 1896.6.6
     historical = yes
     ideology = ideology_fascist
@@ -205,7 +205,7 @@ mr_ita_balbo_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_armed_forces
+            is_interest_group_type = ig_fascists
         }
         earliest_usage_date = 1922.1.1
         latest_usage_date = 1940.6.28
@@ -224,7 +224,7 @@ mr_ita_nicola_romeo_character_template = {
     interest_group = ig_industrialists
     birth_date = 1876.4.28
     historical = yes
-    ideology = ideology_market_liberal
+    ideology = ideology_positivist
     traits = {
         engineer
         innovative
@@ -261,7 +261,7 @@ mr_ita_togliatti_character_template = {
     last_name = ecchi_Togliatti
     culture = cu:north_italian
     female = no
-    interest_group = ig_petty_bourgeoisie
+    interest_group = ig_revolutionist_socialists
     birth_date = 1893.3.26
     historical = yes
     ideology = ideology_communist
@@ -285,7 +285,7 @@ mr_ita_togliatti_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_petty_bourgeoisie
+            is_interest_group_type = ig_revolutionist_socialists
         }
         earliest_usage_date = 1921.1.1
         latest_usage_date = 1964.8.21
@@ -301,7 +301,7 @@ mr_ita_canepa_character_template = {
     last_name = ecchi_Canepa
     culture = cu:south_italian
     female = no
-    interest_group = ig_armed_forces
+    interest_group = ig_radicals
     birth_date = 1908.10.25
     historical = yes
     ideology = ideology_social_democrat
