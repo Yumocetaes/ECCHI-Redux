@@ -216,7 +216,7 @@ ecchi_gre_trikoupis_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_liberals
             }
         }
         earliest_usage_date = 1865.1.1
@@ -285,7 +285,7 @@ ecchi_hun_lukacs_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_revolutionist_socialists
                 is_interest_group_type = ig_trade_unions
             }
         }
@@ -327,7 +327,7 @@ ecchi_hun_turr_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_armed_forces
+                is_interest_group_type = ig_national_liberals
             }
         }
         earliest_usage_date = 1876.1.1
@@ -399,7 +399,7 @@ ecchi_bel_wahis_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_armed_forces
-                is_interest_group_type = ig_landowners
+                is_interest_group_type = ig_petty_bourgeoisie
             }
         }
         earliest_usage_date = 1890.1.1
