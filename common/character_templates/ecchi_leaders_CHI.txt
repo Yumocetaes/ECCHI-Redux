@@ -142,7 +142,7 @@ ecchi_chi_ronglu_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_reactionaries
             }
         }
         earliest_usage_date = 1890.1.1
@@ -365,7 +365,7 @@ ecchi_chi_shi_dakai_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_devout
+            is_interest_group_type = ig_armed_forces
         }
         role = general
         earliest_usage_date = 1850.1.1
@@ -448,7 +448,7 @@ ecchi_chi_wang_zebang_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
+            is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1836.1.2
         latest_usage_date = 1883.1.1
@@ -484,7 +484,7 @@ ecchi_chi_liang_qichao_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_liberals
         }
         earliest_usage_date = 1891.1.1
         latest_usage_date = 1929.1.19
@@ -518,7 +518,7 @@ ecchi_chi_kang_youwei_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_reformist_socialists
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1927.3.31
@@ -587,7 +587,7 @@ ecchi_chi_cai_yuanpei_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1915.1.1
         latest_usage_date = 1940.3.5
@@ -613,7 +613,7 @@ ecchi_chi_huang_xing_character_template = {
             this = c:CHI
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1903.1.1
         latest_usage_date = 1916.10.31
@@ -638,7 +638,7 @@ ecchi_chi_hu_shih_character_template = {
             this = c:CHI
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1920.1.1
         latest_usage_date = 1962.2.24
@@ -669,7 +669,7 @@ ecchi_chi_chiang_kai_shek_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_national_liberals
                 is_interest_group_type = ig_armed_forces
             }
         }
@@ -807,7 +807,7 @@ ecchi_chi_xu_shicang_character_template = {
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_petty_bourgeoisie
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_conservatives
             }
         }
         earliest_usage_date = 1915.1.1
@@ -1324,7 +1324,7 @@ ecchi_chi_du_yuesheng_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_petty_bourgeoisie
+            is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1920.1.1
         latest_usage_date = 1951.8.16
@@ -1457,7 +1457,7 @@ ecchi_chi_lu_xun_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_radicals
         }   
         earliest_usage_date = 1920.1.1
         latest_usage_date = 1936.10.19
@@ -1517,7 +1517,7 @@ ecchi_chi_gu_hongming_character_template = {
             has_state_in_state_region = STATE_BEIJING
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_devout
+            is_interest_group_type = ig_reactionaries
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1928.4.30
