@@ -42,7 +42,7 @@ ecchi_swe_branting_character_template = {
     culture = cu:swedish
     female = no
     ideology = ideology_social_democrat
-    interest_group = ig_trade_unions
+    interest_group = ig_reformist_socialists
     dna = mr_swe_branting_hjalmar
     birth_date = 1860.11.23
     traits = { charismatic persistent }
@@ -73,7 +73,7 @@ ecchi_swe_wallenberg_character_template = {
     culture = cu:swedish
     female = no
     ideology = ideology_humanitarian
-    interest_group = ig_intelligentsia
+    interest_group = ig_petty_bourgeoisie
     dna = ecchi_dna_raoul_wallenberg
     birth_date = 1912.8.4
     traits = { charismatic brave honorable experienced_diplomat }
@@ -87,7 +87,7 @@ ecchi_swe_wallenberg_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_petty_bourgeoisie
         }
         earliest_usage_date = 1930.1.1
         latest_usage_date = 1952.7.31
