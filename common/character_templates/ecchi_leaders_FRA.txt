@@ -94,7 +94,7 @@ ecchi_fra_zola_character_template = {
             this = c:FRA
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1902.9.29
@@ -122,7 +122,7 @@ ecchi_fra_reclus_character_template = {
             this = c:FRA
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_anarchists
             is_interest_group_type = ig_petty_bourgeoisie
         }
         earliest_usage_date = 1870.1.1
@@ -151,7 +151,7 @@ ecchi_fra_blanc_character_template = {
             this = c:FRA
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_trade_unions
+            is_interest_group_type = ig_reformist_socialists
         }
         earliest_usage_date = 1839.1.1
         latest_usage_date = 1882.12.6
@@ -179,7 +179,7 @@ ecchi_fra_buisson_character_template = {
             this = c:FRA
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_devout
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1867.1.1
         latest_usage_date = 1932.2.16
@@ -207,7 +207,7 @@ ecchi_fra_passy_character_template = {
             this = c:FRA
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1870.1.1
         latest_usage_date = 1912.6.12
@@ -235,7 +235,7 @@ ecchi_fra_durkheim_character_template = {
             this = c:FRA
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_reformist_socialists
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1917.11.15
@@ -387,7 +387,7 @@ ecchi_fra_alphonse_de_lamartine_character_template = {
             has_state_in_state_region = STATE_BURGUNDY
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_petty_bourgeoisie
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1833.1.1
         latest_usage_date = 1869.2.28
@@ -430,7 +430,7 @@ ecchi_fra_henri_barbusse_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_armed_forces
+            is_interest_group_type = ig_revolutionist_socialists
             is_interest_group_type = ig_trade_unions
         }
         earliest_usage_date = 1916.1.1
