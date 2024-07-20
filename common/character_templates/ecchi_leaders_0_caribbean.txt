@@ -8,7 +8,7 @@ ecchi_cub_de_cespedes_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_abolitionist
-    interest_group = ig_landowners
+    interest_group = ig_radicals
 	dna = ecchi_dna_carlos_manuel_de_cespedes
     birth_date = 1819.4.18
     traits = { arrogant persistent forest_commander }
@@ -21,7 +21,7 @@ ecchi_cub_de_cespedes_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_radicals
             }
         }
         earliest_usage_date = 1865.1.1
@@ -38,7 +38,7 @@ ecchi_cub_marti_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_reformer
-    interest_group = ig_intelligentsia
+    interest_group = ig_radicals
 	dna = ecchi_dna_jose_marti
     birth_date = 1853.1.28
     traits = { romantic brave reckless }
@@ -50,7 +50,7 @@ ecchi_cub_marti_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_radicals
                 is_interest_group_type = ig_rural_folk
             }
         }
@@ -70,7 +70,7 @@ ecchi_hai_soulouque_character_template = {
     female = no
     religion = rel:animist #Vodou
     ideology = ideology_royalist
-    interest_group = ig_rural_folk
+    interest_group = ig_reactionaries
 	dna = ecchi_dna_faustin_soulouque
     birth_date = 1782.8.15
     traits = { wrathful ambitious imperious }
@@ -82,7 +82,7 @@ ecchi_hai_soulouque_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_reactionaries
                 is_interest_group_type = ig_armed_forces
             }
         }
@@ -100,7 +100,7 @@ ecchi_hai_pierrot_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_jingoist_leader
-    interest_group = ig_armed_forces
+    interest_group = ig_conservatives
 	dna = ecchi_dna_jean_louis_pierrot
     birth_date = 1761.12.19
     traits = { forest_commander pillager }
@@ -126,8 +126,8 @@ ecchi_jam_garvey_character_template = {
     culture = cu:afro_caribbean
     female = no
     religion = rel:catholic
-    ideology = ideology_traditionalist
-    interest_group = ig_landowners
+    ideology = ideology_ethno_nationalist
+    interest_group = ig_national_liberals
 	dna = ecchi_dna_marcus_garvey
     birth_date = 1887.8.17
     traits = { bigoted ambitious wrathful }
@@ -140,7 +140,7 @@ ecchi_jam_garvey_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_national_liberals
             }
         }
         earliest_usage_date = 1914.1.1
@@ -156,8 +156,8 @@ ecchi_jam_bogle_character_template = {
     culture = cu:afro_caribbean
     female = no
     religion = rel:protestant
-    ideology = ideology_reformer
-    interest_group = ig_rural_folk
+    ideology = ideology_radical
+    interest_group = ig_radicals
 	dna = ecchi_dna_paul_bogle
     birth_date = 1822.10.24
     traits = { charismatic direct }
@@ -167,7 +167,7 @@ ecchi_jam_bogle_character_template = {
             this = c:JAM
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_rural_folk
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1860.1.1
         latest_usage_date = 1865.10.24
