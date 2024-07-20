@@ -8,7 +8,7 @@ ecchi_ire_collins_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_radical
-    interest_group = ig_rural_folk
+    interest_group = ig_national_liberals
 	dna = ecchi_dna_michael_collins
     birth_date = 1890.10.16
     traits = { tactful demagogue }
@@ -21,7 +21,7 @@ ecchi_ire_collins_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_national_liberals
             }
         }
         earliest_usage_date = 1915.1.1
@@ -38,7 +38,7 @@ ecchi_ire_griffith_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_republican_leader
-    interest_group = ig_intelligentsia
+    interest_group = ig_national_liberals
 	dna = ecchi_dna_arthur_griffith
     birth_date = 1871.3.31
     traits = { persistent experienced_diplomat }
@@ -50,7 +50,7 @@ ecchi_ire_griffith_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_national_liberals
                 is_interest_group_type = ig_intelligentsia
             }
         }
@@ -96,7 +96,7 @@ ecchi_ire_guinness_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_humanitarian
-    interest_group = ig_petty_bourgeoisie
+    interest_group = ig_industrialists
     dna = ecchi_dna_arthur_guinness_ii
     birth_date = 1768.3.12
     traits = { innovative reserved alcoholic }
@@ -115,7 +115,7 @@ ecchi_ire_guinness_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_petty_bourgeoisie
+            is_interest_group_type = ig_industrialists
         }
         earliest_usage_date = 1790.1.1
         latest_usage_date = 1855.6.9
@@ -133,7 +133,7 @@ ecchi_ire_parnell_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_liberal_leader
-    interest_group = ig_landowners
+    interest_group = ig_national_liberals
     dna = ecchi_dna_charles_parnell
     birth_date = 1846.6.27
     traits = { charismatic tactful arrogant }
@@ -152,7 +152,7 @@ ecchi_ire_parnell_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_landowners
+            is_interest_group_type = ig_national_liberals
         }
         earliest_usage_date = 1875.1.1
         latest_usage_date = 1891.10.6
@@ -244,7 +244,7 @@ ecchi_ire_casement_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_ethno_nationalist
-    interest_group = ig_intelligentsia
+    interest_group = ig_national_liberals
     dna = ecchi_dna_roger_casement
     birth_date = 1864.9.1
     traits = { charismatic experienced_diplomat expert_colonial_administrator }
@@ -263,7 +263,7 @@ ecchi_ire_casement_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_national_liberals
         }
         earliest_usage_date = 1884.1.1
         latest_usage_date = 1916.8.3
