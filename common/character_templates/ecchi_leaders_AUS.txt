@@ -31,7 +31,7 @@ ecchi_aus_lueger_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_petty_bourgeoisie
-                is_interest_group_type = ig_devout
+                is_interest_group_type = ig_reactionaries
             }
         }
         earliest_usage_date = 1875.1.1
@@ -70,7 +70,7 @@ ecchi_aus_bauer_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_reformist_socialists
                 is_interest_group_type = ig_trade_unions
             }
         }
@@ -110,7 +110,7 @@ ecchi_aus_von_suttner_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_radicals
                 is_interest_group_type = ig_landowners
             }
         }
@@ -187,7 +187,7 @@ ecchi_aus_dollfuss_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_petty_bourgeoisie
+            is_interest_group_type = ig_fascists
         }
         earliest_usage_date = 1929.1.1
         latest_usage_date = 1934.7.25
@@ -256,7 +256,7 @@ ecchi_aus_kudlich_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_rural_folk
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1848.1.1
         latest_usage_date = 1917.11.10
@@ -288,7 +288,7 @@ ecchi_aus_kudlich_character_template = {
 #             }
 #         }
 #         interest_group_trigger = {
-#             is_interest_group_type = ig_landowners
+#             is_interest_group_type = ig_reactionaries
 #         }
 #         earliest_usage_date = 1809.1.1
 #         latest_usage_date = 1859.6.11
@@ -320,7 +320,7 @@ ecchi_aus_berchtold_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_landowners
+            is_interest_group_type = ig_reactionaries
         }
         earliest_usage_date = 1912.2.1
         latest_usage_date = 1942.11.21
@@ -357,7 +357,7 @@ ecchi_aus_herzel_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_national_liberals
         }
         earliest_usage_date = 1897.1.1
         latest_usage_date = 1904.7.3
@@ -392,7 +392,7 @@ ecchi_aus_franko_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_rural_folk
+            is_interest_group_type = ig_reformist_socialists
         }
         earliest_usage_date = 1880.1.1
         latest_usage_date = 1916.5.28
