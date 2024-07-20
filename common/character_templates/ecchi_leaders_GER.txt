@@ -37,7 +37,7 @@ ecchi_ger_hitler_character_template = {
 		interest_group_trigger = {
 			is_marginal = no
 			OR = {
-				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_fascists
 				is_interest_group_type = ig_armed_forces
 			}
 		}
@@ -84,7 +84,7 @@ ecchi_ger_hugenberg_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_interest_group_type = ig_industrialists
+			is_interest_group_type = ig_reactionaries
 		}
 		earliest_usage_date = 1909.1.1
 		latest_usage_date = 1951.3.12
@@ -129,7 +129,7 @@ ecchi_ger_engels_character_template = {
 			is_marginal = no
 			OR = {
 				is_interest_group_type = ig_trade_unions
-				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_revolutionist_socialists
 			}
 		}
 		earliest_usage_date = 1849.1.1
@@ -176,7 +176,7 @@ ecchi_ger_liebknecht_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_trade_unions
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_revolutionist_socialists
             }
         }
         earliest_usage_date = 1900.1.1
