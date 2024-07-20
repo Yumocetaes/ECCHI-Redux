@@ -27,7 +27,7 @@ ecchi_bel_rogier_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_liberals
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1885.5.27
@@ -132,7 +132,7 @@ ecchi_bel_de_paepe_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_trade_unions
+            is_interest_group_type = ig_reformist_socialists
         }
         earliest_usage_date = 1865.1.1
         latest_usage_date = 1890.12.19
@@ -169,7 +169,7 @@ ecchi_bel_hamer_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_radicals
         }   
         earliest_usage_date = 1906.1.1
         latest_usage_date = 1951.4.28
@@ -206,7 +206,7 @@ ecchi_bel_la_fontaine_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1890.1.1
         latest_usage_date = 1943.5.14
