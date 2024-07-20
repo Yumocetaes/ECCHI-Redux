@@ -8,7 +8,7 @@ ecchi_gbr_grey_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_reformer
-    interest_group = ig_intelligentsia
+    interest_group = ig_liberals
     birth_date = 1764.3.13
     traits = { innovative tactful arrogant }
 	dna = ecchi_dna_charles_grey
@@ -27,7 +27,7 @@ ecchi_gbr_grey_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_liberals
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1845.7.17
@@ -43,7 +43,7 @@ ecchi_gbr_john_russell_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_reformer
-    interest_group = ig_intelligentsia
+    interest_group = ig_liberals
     birth_date = 1792.8.18
 	dna = ecchi_dna_john_russell
     traits = { reckless basic_political_operator }
@@ -62,7 +62,7 @@ ecchi_gbr_john_russell_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_liberals
         }
         earliest_usage_date = 1839.8.30
         latest_usage_date = 1878.5.28
@@ -78,7 +78,7 @@ ecchi_gbr_john_russell_character_template = {
 #     female = no
 #     religion = rel:protestant
 #     ideology = ideology_pacifist
-#     interest_group = ig_industrialists
+#     interest_group = ig_conservatives
 # 	dna = ecchi_dna_george_hamilton_gordon
 #     birth_date = 1784.1.28
 #     traits = { experienced_diplomat reserved meticulous }
@@ -99,7 +99,7 @@ ecchi_gbr_john_russell_character_template = {
 #         interest_group_trigger = {
 #             is_marginal = no
 # 			OR = {
-# 				is_interest_group_type = ig_industrialists
+# 				is_interest_group_type = ig_conservatives
 # 				is_interest_group_type = ig_petty_bourgeoisie
 # 			}
 #         }
@@ -116,8 +116,8 @@ ecchi_gbr_cecil_character_template = {
     culture = cu:british
     female = no
     religion = rel:protestant
-    ideology = ideology_traditionalist
-    interest_group = ig_industrialists
+    ideology = ideology_moderate
+    interest_group = ig_conservatives
     birth_date = 1830.2.3
 	dna = ecchi_dna_robert_gascoyne_cecil
     traits = { experienced_diplomat arrogant }
@@ -138,7 +138,7 @@ ecchi_gbr_cecil_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_conservatives
 				is_interest_group_type = ig_petty_bourgeoisie
 			}
         }
@@ -156,7 +156,7 @@ ecchi_gbr_primrose_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_jingoist_leader
-    interest_group = ig_intelligentsia
+    interest_group = ig_liberals
     birth_date = 1847.5.7
 	dna = ecchi_dna_archibald_primrose
     traits = { inspirational_orator hedonist cautious }
@@ -177,7 +177,7 @@ ecchi_gbr_primrose_character_template = {
         interest_group_trigger = {
             is_marginal = no
 			OR = {
-				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_liberals
 				is_interest_group_type = ig_petty_bourgeoisie
 				is_interest_group_type = ig_landowners
 			}
@@ -196,7 +196,7 @@ ecchi_gbr_primrose_character_template = {
 #     female = no
 #     religion = rel:protestant
 #     ideology = ideology_moderate
-#     interest_group = ig_industrialists
+#     interest_group = ig_conservatives
 #     birth_date = 1848.7.25
 # 	dna = ecchi_dna_arthur_balfour
 #     traits = { pious expensive_tastes reserved }
@@ -217,7 +217,7 @@ ecchi_gbr_primrose_character_template = {
 #         interest_group_trigger = {
 #             is_marginal = no
 #             OR = {
-# 				is_interest_group_type = ig_industrialists
+# 				is_interest_group_type = ig_conservatives
 # 				is_interest_group_type = ig_petty_bourgeoisie
 # 			}
 #         }
@@ -235,7 +235,7 @@ ecchi_gbr_campbell_bannerman_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_radical
-    interest_group = ig_intelligentsia
+    interest_group = ig_liberals
     birth_date = 1836.9.7
 	dna = ecchi_dna_henry_campbell_bannerman
     traits = { basic_political_operator brave direct }
@@ -274,8 +274,8 @@ ecchi_gbr_asquith_character_template = {
     culture = cu:british
     female = no
     religion = rel:protestant
-    ideology = ideology_reformer
-    interest_group = ig_intelligentsia
+    ideology = ideology_humanitarian
+    interest_group = ig_liberals
     birth_date = 1852.9.12
 	dna = ecchi_dna_h_h_asquith
     traits = { cautious arrogant }
@@ -294,7 +294,7 @@ ecchi_gbr_asquith_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_liberals
         }
         earliest_usage_date = 1892.8.18
         latest_usage_date = 1928.2.15
@@ -309,8 +309,8 @@ ecchi_gbr_asquith_character_template = {
 #     culture = cu:british
 #     female = no
 #     religion = rel:protestant
-#     ideology = ideology_reformer
-#     interest_group = ig_intelligentsia
+#     ideology = ideology_humanitarian
+#     interest_group = ig_liberals
 #     birth_date = 1863.1.17
 # 	dna = ecchi_dna_david_lloyd_george
 #     traits = { inspirational_orator experienced_diplomat meticulous }
@@ -329,7 +329,7 @@ ecchi_gbr_asquith_character_template = {
 #             }
 #         }
 #         interest_group_trigger = {
-#             is_interest_group_type = ig_intelligentsia
+#             is_interest_group_type = ig_liberals
 #         }
 #         earliest_usage_date = 1908.4.12
 #         latest_usage_date = 1945.3.26
@@ -344,8 +344,8 @@ ecchi_gbr_law_character_template = {
     culture = cu:scottish
     female = no
     religion = rel:protestant
-    ideology = ideology_traditionalist
-    interest_group = ig_industrialists
+    ideology = ideology_moderate
+    interest_group = ig_conservatives
     birth_date = 1858.9.16
 	dna = ecchi_dna_bonar_law
     traits = { persistent tactful cancer }
@@ -366,7 +366,7 @@ ecchi_gbr_law_character_template = {
         interest_group_trigger = {
             is_marginal = no
              OR = {
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_conservatives
 				is_interest_group_type = ig_petty_bourgeoisie
 			}
         }
@@ -384,7 +384,7 @@ ecchi_gbr_baldwin_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_moderate
-    interest_group = ig_industrialists
+    interest_group = ig_conservatives
     birth_date = 1867.8.3
 	dna = ecchi_dna_stanley_baldwin
     traits = { innovative tactful experienced_political_operator }
@@ -405,7 +405,7 @@ ecchi_gbr_baldwin_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_conservatives
 				is_interest_group_type = ig_petty_bourgeoisie
 			}
         }
@@ -423,7 +423,7 @@ ecchi_gbr_macdonald_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_reformer
-    interest_group = ig_trade_unions
+    interest_group = ig_reformist_socialists
     birth_date = 1866.10.12
 	dna = ecchi_dna_ramsay_macdonald
     traits = { inspirational_orator charismatic cautious }
@@ -445,7 +445,7 @@ ecchi_gbr_macdonald_character_template = {
             is_marginal = no
 			OR = {
 				is_interest_group_type = ig_trade_unions
-				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_reformist_socialists
 			}
         }
         earliest_usage_date = 1911.2.6
@@ -462,7 +462,7 @@ ecchi_gbr_chamberlain_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_pacifist
-    interest_group = ig_industrialists
+    interest_group = ig_conservatives
     birth_date = 1869.3.18
 	dna = ecchi_dna_neville_chamberlain
     traits = { cautious experienced_diplomat direct }
@@ -483,7 +483,7 @@ ecchi_gbr_chamberlain_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_conservatives
 				is_interest_group_type = ig_petty_bourgeoisie
 			}
         }
@@ -500,8 +500,8 @@ ecchi_gbr_churchill_character_template = {
     culture = cu:british
     female = no
     religion = rel:protestant
-    ideology = ideology_traditionalist
-    interest_group = ig_industrialists
+    ideology = ideology_moderate
+    interest_group = ig_conservatives
     birth_date = 1874.11.30
 	dna = ecchi_dna_winston_churchill
     traits = { alcoholic direct charismatic romantic masterful_diplomat }
@@ -520,7 +520,7 @@ ecchi_gbr_churchill_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
+            is_interest_group_type = ig_conservatives
         }
         earliest_usage_date = 1911.10.24
         latest_usage_date = 1965.1.24
@@ -569,7 +569,7 @@ ecchi_gbr_elphinstone_character_template = {
 # 	culture = cu:british
 # 	female = no
 # 	religion = rel:protestant
-# 	ideology = ideology_moderate
+# 	ideology = ideology_jingoist_leader
 # 	commander_rank = default
 # 	interest_group = ig_armed_forces
 # 	birth_date = 1861.6.19
@@ -674,7 +674,7 @@ ecchi_gbr_livingstone_character_template = {
     culture = cu:scottish
     female = no
     religion = rel:protestant
-    ideology = ideology_royalist
+    ideology = ideology_abolitionist
     interest_group = ig_devout
 	dna = ecchi_dna_david_livingstone
     birth_date = 1813.3.19
@@ -718,7 +718,7 @@ ecchi_gbr_albert_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_royalist
-    interest_group = ig_intelligentsia
+    interest_group = ig_landowners
 	dna = ecchi_dna_prince_albert
     birth_date = 1819.8.26
     traits = { tactful pious expensive_tastes experienced_diplomat }
@@ -737,7 +737,7 @@ ecchi_gbr_albert_character_template = {
             }
         }
         interest_group_trigger = {
-			is_interest_group_type = ig_intelligentsia
+			is_interest_group_type = ig_landowners
         }
         earliest_usage_date = 1841.1.1
         latest_usage_date = 1861.12.14
@@ -792,8 +792,8 @@ ecchi_gbr_bertrand_russell_character_template = {
     culture = cu:british
     female = no
     religion = rel:protestant
-    ideology = ideology_pacifist
-    interest_group = ig_intelligentsia
+    ideology = ideology_humanitarian
+    interest_group = ig_liberals
 	dna = ecchi_dna_bertrand_russell
     birth_date = 1872.5.18
     traits = { basic_diplomat innovative }
@@ -812,7 +812,7 @@ ecchi_gbr_bertrand_russell_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_liberals
         }
         earliest_usage_date = 1905.1.1
         latest_usage_date = 1970.2.2
@@ -979,8 +979,8 @@ ecchi_gbr_stanley_character_template = {
     culture = cu:welsh
     female = no
     religion = rel:protestant
-    ideology = ideology_traditionalist
-    interest_group = ig_rural_folk
+    ideology = ideology_moderate
+    interest_group = ig_conservatives
 	dna = ecchi_dna_henry_morgan_stanley
     birth_date = 1841.1.28
     traits = { bigoted explorer }
@@ -1001,7 +1001,7 @@ ecchi_gbr_stanley_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_conservatives
                 is_interest_group_type = ig_intelligentsia
             }
         }
@@ -1128,8 +1128,8 @@ ecchi_gbr_kipling_character_template = {
     culture = cu:british
     female = no
     religion = rel:protestant
-    ideology = ideology_royalist
-    interest_group = ig_petty_bourgeoisie
+    ideology = ideology_traditionalist
+    interest_group = ig_intelligentsia
 	dna = ecchi_dna_rudyard_kipling
     birth_date = 1865.12.30
     traits = { bigoted romantic arrogant }
@@ -1151,7 +1151,7 @@ ecchi_gbr_kipling_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_intelligentsia
                 is_interest_group_type = ig_rural_folk
             }
         }
@@ -1168,8 +1168,8 @@ ecchi_gbr_harcourt_character_template = {
     culture = cu:british
     female = no
     religion = rel:protestant
-    ideology = ideology_reformer
-    interest_group = ig_intelligentsia
+    ideology = ideology_humanitarian
+    interest_group = ig_liberals
 	dna = ecchi_dna_william_harcourt
     birth_date = 1827.10.14
     traits = { inspirational_orator imperious }
@@ -1182,7 +1182,7 @@ ecchi_gbr_harcourt_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_liberals
             }
         }
         earliest_usage_date = 1868.1.1
@@ -1199,7 +1199,7 @@ ecchi_gbr_harcourt_character_template = {
 #     female = no
 #     religion = rel:protestant
 #     ideology = ideology_social_democrat
-#     interest_group = ig_intelligentsia
+#     interest_group = ig_liberals
 # 	dna = ecchi_dna_john_maynard_keynes
 #     birth_date = 1883.6.5
 #     traits = { tactful meticulous }
@@ -1212,7 +1212,7 @@ ecchi_gbr_harcourt_character_template = {
 #             is_marginal = no
 #             OR = {
 #                 is_interest_group_type = ig_intelligentsia
-#                 is_interest_group_type = ig_rural_folk
+#                 is_interest_group_type = ig_liberals
 #                 is_interest_group_type = ig_trade_unions
 #             }
 #         }
@@ -1229,7 +1229,7 @@ ecchi_gbr_carlyle_character_template = {
     culture = cu:scottish
     female = no
     religion = rel:protestant
-    ideology = ideology_royalist
+    ideology = ideology_traditionalist
     interest_group = ig_intelligentsia
 	dna = ecchi_dna_thomas_carlyle
     birth_date = 1795.12.4
@@ -1298,7 +1298,7 @@ ecchi_gbr_cobden_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_radical
-    interest_group = ig_industrialists
+    interest_group = ig_liberals
     dna = ecchi_dna_richard_cobden
     birth_date = 1804.6.3
     traits = { tactful masterful_diplomat }
@@ -1308,7 +1308,7 @@ ecchi_gbr_cobden_character_template = {
             this = c:GBR
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_industrialists
+            is_interest_group_type = ig_liberals
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1865.4.20
@@ -1326,7 +1326,7 @@ ecchi_gbr_fawcett_character_template = {
     female = yes
     religion = rel:protestant
     ideology = ideology_feminist
-    interest_group = ig_industrialists
+    interest_group = ig_radicals
     dna = ecchi_dna_millicent_fawcett
     birth_date = 1847.6.11
     traits = { persistent inspirational_orator honorable }
@@ -1336,7 +1336,7 @@ ecchi_gbr_fawcett_character_template = {
             this = c:GBR
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_radicals
         }
         earliest_usage_date = 1869.1.1
         latest_usage_date = 1929.8.5
@@ -1435,7 +1435,7 @@ ecchi_gbr_wells_hg_character_template = {
 	last_name = ecchi_Wells
 	culture = cu:british
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_reformist_socialists
 	birth_date = 1866.9.21
 	historical = yes
     ideology = ideology_social_democrat
@@ -1461,7 +1461,7 @@ ecchi_gbr_wells_hg_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_reformist_socialists
         }
         earliest_usage_date = 1891.1.1
         latest_usage_date = 1946.8.13
@@ -1560,10 +1560,10 @@ ecchi_gbr_chaplin_charlie_character_template = {
     last_name = ecchi_Chaplin
     culture = cu:british
     female = no
-    interest_group = ig_petty_bourgeoisie
+    interest_group = ig_intelligentsia
     birth_date = 1889.4.16
     historical = yes
-    ideology = ideology_reformer
+    ideology = ideology_humanitarian
     traits = {
         demagogue
         tactful
@@ -1590,7 +1590,7 @@ ecchi_gbr_chaplin_charlie_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_petty_bourgeoisie
+            is_interest_group_type = ig_intelligentsia
         }
         earliest_usage_date = 1900.1.1
         latest_usage_date = 1977.12.25
