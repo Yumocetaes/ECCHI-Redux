@@ -97,7 +97,7 @@ ecchi_fin_miina_sillanpaa_character_template = {
 	historical = yes
 	culture = cu:finnish
 	female = yes
-	ideology = ideology_social_democrat
+	ideology = ideology_socialist_leader
 	interest_group = ig_trade_unions
 	dna = ecchi_dna_miina_sillanpaa
 	birth_date = 1866.6.4
@@ -143,7 +143,7 @@ ecchi_fin_risto_ryti_character_template = {
 	culture = cu:finnish
 	female = no
 	ideology = ideology_republican_leader
-	interest_group = ig_intelligentsia
+	interest_group = ig_market_liberals
 	dna = ecchi_dna_risto_ryti
 	birth_date = 1889.2.3
 	traits = {
@@ -161,7 +161,7 @@ ecchi_fin_risto_ryti_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_interest_group_type = ig_intelligentsia
+			is_interest_group_type = ig_market_liberals
 		}
 		earliest_usage_date = 1918.1.1
 		latest_usage_date = 1956.10.25
