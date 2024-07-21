@@ -66,7 +66,7 @@ ecchi_dai_phan_dinh_phung_character_template = {
     culture = cu:vietnamese
     female = no
     ideology = ideology_traditionalist
-    interest_group = ig_rural_folk
+    interest_group = ig_intelligentsia
 	dna = ecchi_dna_phan_dinh_phung
     birth_date = 1847.1.21
     traits = { imperious pious resupply_commander forest_commander }
@@ -124,7 +124,7 @@ ecchi_dai_ho_chi_minh_character_template = {
     culture = cu:vietnamese
     female = no
     ideology = ideology_communist
-    interest_group = ig_rural_folk
+    interest_group = ig_revolutionist_socialists
 	dna = ecchi_dna_ho_chi_minh
     birth_date = 1890.5.19
     traits = { persistent forest_commander resupply_commander demagogue }
@@ -136,7 +136,7 @@ ecchi_dai_ho_chi_minh_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_revolutionist_socialists
                 is_interest_group_type = ig_trade_unions
             }
         }
@@ -155,7 +155,7 @@ ecchi_dai_huynh_thuc_khang_character_template = {
     culture = cu:vietnamese
     female = no
     ideology = ideology_radical
-    interest_group = ig_trade_unions
+    interest_group = ig_reformist_socialists
     dna = ecchi_dna_huynh_thuc_khang
     birth_date = 1876.10.1
     traits = { charismatic pious }
@@ -167,7 +167,7 @@ ecchi_dai_huynh_thuc_khang_character_template = {
         interest_group_trigger = {
             OR = {
                 is_interest_group_type = ig_trade_unions
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_reformist_socialists
             }
         }
         earliest_usage_date = 1919.1.1
