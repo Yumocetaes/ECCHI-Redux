@@ -8,7 +8,7 @@ ecchi_nzl_sewell_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_pacifist
-    interest_group = ig_intelligentsia
+    interest_group = ig_liberals
 	dna = ecchi_dna_henry_sewell
     birth_date = 1807.9.7
     traits = { romantic persistent basic_colonial_administrator }
@@ -20,7 +20,7 @@ ecchi_nzl_sewell_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_liberals
                 is_interest_group_type = ig_rural_folk
             }
         }
@@ -38,7 +38,7 @@ ecchi_nzl_fox_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_republican_leader
-    interest_group = ig_petty_bourgeoisie
+    interest_group = ig_liberals
 	dna = ecchi_dna_william_fox
     birth_date = 1812.1.20
     traits = { innovative bigoted wrathful direct }
@@ -50,7 +50,7 @@ ecchi_nzl_fox_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_liberals
                 is_interest_group_type = ig_landowners
             }
         }
@@ -68,7 +68,7 @@ ecchi_nzl_savage_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_social_democrat
-    interest_group = ig_trade_unions
+    interest_group = ig_reformist_socialists
 	dna = ecchi_dna_michael_joseph_savage
     birth_date = 1872.3.23
     traits = { cancer romantic charismatic experienced_political_operator }
@@ -81,7 +81,7 @@ ecchi_nzl_savage_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_trade_unions
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_reformist_socialists
             }
         }
         earliest_usage_date = 1910.1.1
@@ -98,7 +98,7 @@ ecchi_nzl_seddon_character_template = {
     female = no
     religion = rel:protestant
     ideology = ideology_moderate
-    interest_group = ig_rural_folk
+    interest_group = ig_liberals
 	dna = ecchi_dna_richard_seddon
     birth_date = 1845.6.22
     traits = { charismatic demagogue direct ambitious }
@@ -111,7 +111,7 @@ ecchi_nzl_seddon_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_rural_folk
-                is_interest_group_type = ig_landowners
+                is_interest_group_type = ig_liberals
             }
         }
         earliest_usage_date = 1878.1.1
@@ -127,8 +127,8 @@ ecchi_nzl_ballance_character_template = {
     culture = cu:irish
     female = no
     religion = rel:protestant
-    ideology = ideology_reformer
-    interest_group = ig_rural_folk
+    ideology = ideology_humanitarian
+    interest_group = ig_liberals
 	dna = ecchi_dna_john_ballance
     birth_date = 1839.3.27
     traits = { kidney_stones experienced_political_operator }
@@ -142,7 +142,7 @@ ecchi_nzl_ballance_character_template = {
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_trade_unions
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_liberals
             }
         }
         earliest_usage_date = 1875.1.1
@@ -249,7 +249,7 @@ ecchi_aot_o_rongomai_character_template = {
     culture = cu:maori
     female = no
     religion = rel:animist
-    ideology = ideology_theocrat
+    ideology = ideology_pacifist
     interest_group = ig_devout
 	dna = ecchi_dna_te_whiti_o_rongomai
     birth_date = 1832.11.18
