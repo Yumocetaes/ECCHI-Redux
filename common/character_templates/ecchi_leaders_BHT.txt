@@ -7,7 +7,7 @@ ecchi_bht_tata_character_template = {
     culture = cu:gujarati
     female = no
     religion = rel:animist # Zoroastrian
-    ideology = ideology_moderate
+    ideology = ideology_market_liberal
     interest_group = ig_industrialists
 	dna = ecchi_dna_jamsetji_tata
     birth_date = 1839.3.3
@@ -55,7 +55,7 @@ ecchi_bht_gandhi_character_template = {
     female = no
     religion = rel:hindu
     ideology = ideology_pacifist
-    interest_group = ig_intelligentsia
+    interest_group = ig_radicals
 	dna = ecchi_dna_mohandas_gandhi
     birth_date = 1869.10.2
     traits = { charismatic tactful experienced_diplomat persistent }
@@ -85,7 +85,7 @@ ecchi_bht_gandhi_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_radicals
             }
         }
         earliest_usage_date = 1915.1.1
@@ -102,7 +102,7 @@ ecchi_bht_nehru_character_template = {
     female = no
     religion = rel:hindu
     ideology = ideology_republican_leader
-    interest_group = ig_intelligentsia
+    interest_group = ig_reformist_socialists
 	dna = ecchi_dna_jawaharlal_nehru
     birth_date = 1889.11.14
     traits = { masterful_diplomat meticulous direct }
@@ -131,7 +131,7 @@ ecchi_bht_nehru_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_reformist_socialists
                 is_interest_group_type = ig_trade_unions
             }
         }
@@ -149,7 +149,7 @@ ecchi_sin_jinnah_character_template = {
     female = no
     religion = rel:sunni
     ideology = ideology_republican_leader
-    interest_group = ig_intelligentsia
+    interest_group = ig_national_liberals
 	dna = ecchi_dna_muhammad_ali_jinnah
     birth_date = 1876.12.25
     traits = { tactful romantic demagogue }
@@ -176,7 +176,7 @@ ecchi_sin_jinnah_character_template = {
             }
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_national_liberals
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1948.9.11
@@ -249,7 +249,7 @@ ecchi_cey_senanayake_character_template = {
     female = no
     religion = rel:theravada
     ideology = ideology_republican_leader
-    interest_group = ig_rural_folk
+    interest_group = ig_conservatives
 	dna = ecchi_dna_d_s_senanayake
     birth_date = 1884.10.21
     traits = { pious experienced_political_operator experienced_diplomat }
@@ -263,7 +263,7 @@ ecchi_cey_senanayake_character_template = {
             OR = {
                 is_interest_group_type = ig_rural_folk
                 is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_conservatives
             }
         }
         earliest_usage_date = 1920.1.1
@@ -280,7 +280,7 @@ ecchi_bht_malaviya_character_template = {
     female = no					
     religion = rel:hindu					
     ideology = ideology_moderate					
-    interest_group = ig_intelligentsia
+    interest_group = ig_reformist_socialists
 	dna = ecchi_dna_madan_mohan_malaviya
     birth_date = 1861.12.25					
     traits = { romantic meticulous }   					
@@ -307,7 +307,7 @@ ecchi_bht_malaviya_character_template = {
             }
         }				
         interest_group_trigger = {							
-            is_interest_group_type = ig_intelligentsia					
+            is_interest_group_type = ig_reformist_socialists					
         }					
         earliest_usage_date = 1915.1.1					
         latest_usage_date = 1946.11.12					
@@ -326,6 +326,7 @@ mr_hnd_tagore_rabindranath_character_template = {
 	female = no
 	ig_leader = no
 	interest_group = ig_intelligentsia
+	ideology = ideology_reformer
 	birth_date = 1861.5.7
 	historical = yes
 	traits = { 
