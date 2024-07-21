@@ -42,7 +42,7 @@ ecchi_nor_nansen_fridtjof_character_template = {
 	last_name = ecchi_Nansen
 	culture = cu:norwegian
 	religion = rel:protestant
-	interest_group = ig_intelligentsia
+	interest_group = ig_petty_bourgeoisie
 	ideology = ideology_humanitarian
 	female = no
 	birth_date = 1861.10.10
@@ -63,7 +63,7 @@ ecchi_nor_nansen_fridtjof_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_interest_group_type = ig_industrialists
+			is_interest_group_type = ig_petty_bourgeoisie
 		}
 		earliest_usage_date = 1900.1.1
 		latest_usage_date = 1930.5.13
@@ -78,7 +78,8 @@ ecchi_nor_michelsen_christian_character_template = {
 	first_name = ecchi_Christian
 	last_name = ecchi_Michelsen
 	culture = cu:norwegian
-	interest_group = ig_industrialists
+	interest_group = ig_liberals
+	ideology = ideology_reformer
 	female = no
 	birth_date = 1857.3.15
 	historical = yes
@@ -93,7 +94,7 @@ ecchi_nor_michelsen_christian_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_interest_group_type = ig_industrialists
+			is_interest_group_type = ig_liberals
 		}
 		earliest_usage_date = 1891.1.1
 		latest_usage_date = 1925.6.29
@@ -108,7 +109,7 @@ ecchi_nor_quisling_vidkun_character_template = {
 	first_name = ecchi_Vidkun
 	last_name = ecchi_Quisling
 	culture = cu:norwegian
-	interest_group = ig_intelligentsia
+	interest_group = ig_armed_forces
 	ideology = ideology_fascist
 	female = no
 	birth_date = 1887.7.18
@@ -124,7 +125,7 @@ ecchi_nor_quisling_vidkun_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_interest_group_type = ig_petty_bourgeoisie
+			is_interest_group_type = ig_armed_forces
 			is_interest_group_type = ig_intelligentsia
 		}
 		earliest_usage_date = 1920.1.1
@@ -140,7 +141,7 @@ ecchi_nor_hamsun_knut_character_template = {
 	first_name = ecchi_Knut
 	last_name = ecchi_Hamsun
 	culture = cu:norwegian
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_conservatives
 	ideology = ideology_fascist
 	female = no
 	birth_date = 1859.8.4
