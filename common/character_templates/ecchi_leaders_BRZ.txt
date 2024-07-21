@@ -7,8 +7,8 @@ ecchi_brz_de_andrada_character_template = {
     culture = cu:brazilian
     female = no
     religion = rel:catholic
-    ideology = ideology_abolitionist
-    interest_group = ig_intelligentsia
+    ideology = ideology_royalist
+    interest_group = ig_conservatives
 	dna = ecchi_dna_jose_bonifacio_de_andrada
     birth_date = 1763.6.13
     traits = { innovative meticulous }
@@ -18,7 +18,7 @@ ecchi_brz_de_andrada_character_template = {
             this = c:BRZ
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_conservatives
         }
         earliest_usage_date = 1836.1.1
         latest_usage_date = 1838.4.6
@@ -93,7 +93,7 @@ ecchi_brz_irineu_de_sousa_character_template = {
     culture = cu:brazilian
     female = no
     religion = rel:catholic
-    ideology = ideology_traditionalist
+    ideology = ideology_market_liberal
     interest_group = ig_industrialists
 	dna = ecchi_dna_irineu_de_sousa
     birth_date = 1813.12.28
@@ -128,8 +128,8 @@ ecchi_brz_paranhos_character_template = {
     culture = cu:brazilian
     female = no
     religion = rel:catholic
-    ideology = ideology_royalist
-    interest_group = ig_landowners
+    ideology = ideology_abolitionist
+    interest_group = ig_liberals
 	dna = ecchi_dna_jose_paranhos
     birth_date = 1819.3.16
     traits = { cancer experienced_political_operator tactful basic_naval_commander }
@@ -151,7 +151,7 @@ ecchi_brz_paranhos_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_liberals
             }
         }
         earliest_usage_date = 1850.1.1
@@ -168,7 +168,7 @@ ecchi_brz_franciso_de_sousa_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_slaver
-    interest_group = ig_petty_bourgeoisie
+    interest_group = ig_industrialists
 	dna = ecchi_dna_francisco_de_sousa
     birth_date = 1754.10.4
     traits = { hedonist expensive_tastes imperious }
@@ -189,7 +189,7 @@ ecchi_brz_franciso_de_sousa_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_industrialists
                 is_interest_group_type = ig_landowners
             }
         }
