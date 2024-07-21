@@ -7,8 +7,8 @@ ecchi_mex_villa_character_template = {
     culture = cu:mexican
     female = no
     religion = rel:catholic
-    ideology = ideology_radical
-    interest_group = ig_rural_folk
+    ideology = ideology_land_reformer
+    interest_group = ig_agrarian_populists
 	dna = ecchi_dna_pancho_villa
     birth_date = 1878.6.5
     traits = { demagogue pillager ambitious }
@@ -18,7 +18,7 @@ ecchi_mex_villa_character_template = {
             this = c:MEX
         }
         interest_group_trigger = {
-            is_interest_group_type = ig_rural_folk
+            is_interest_group_type = ig_agrarian_populists
         }
         earliest_usage_date = 1910.1.1
         latest_usage_date = 1923.7.20
