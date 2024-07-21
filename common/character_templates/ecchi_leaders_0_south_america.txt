@@ -7,8 +7,8 @@ ecchi_chl_o_higgins_character_template = {
     culture = cu:south_andean
     female = no
     religion = rel:catholic
-    ideology = ideology_moderate
-    interest_group = ig_landowners
+    ideology = ideology_republican_leader
+    interest_group = ig_liberals
 	dna = ecchi_dna_bernardo_o_higgins
     birth_date = 1778.8.20
     traits = { senile romantic imperious ambitious }
@@ -21,7 +21,7 @@ ecchi_chl_o_higgins_character_template = {
             is_marginal = no
             OR = {
                 is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_liberals
             }
         }
         earliest_usage_date = 1836.1.1
@@ -40,7 +40,7 @@ ecchi_uru_artigas_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_republican_leader
-    interest_group = ig_armed_forces
+    interest_group = ig_national_liberals
 	dna = ecchi_dna_jose_gervasio_artigas
     birth_date = 1764.6.19
     traits = { pillager ambitious imperious }
@@ -54,7 +54,7 @@ ecchi_uru_artigas_character_template = {
             OR = {
                 is_interest_group_type = ig_armed_forces
                 is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_national_liberals
             }
         }
         earliest_usage_date = 1836.1.1
@@ -71,7 +71,7 @@ ecchi_uru_berro_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_moderate
-    interest_group = ig_petty_bourgeoisie
+    interest_group = ig_conservatives
 	dna = ecchi_dna_bernardo_berro
     birth_date = 1803.4.28
     traits = { tactful basic_political_operator }
@@ -83,7 +83,7 @@ ecchi_uru_berro_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_conservatives
                 is_interest_group_type = ig_landowners
             }
         }
@@ -102,8 +102,8 @@ ecchi_uru_berro_character_template = {
 #     culture = cu:platinean
 #     female = no
 #     religion = rel:catholic
-#     ideology = ideology_republican_leader
-#     interest_group = ig_intelligentsia
+#     ideology = ideology_humanitarian
+#     interest_group = ig_liberals
 #     dna = ecchi_dna_jose_batlle
 #     birth_date = 1856.5.1
 #     traits = { imperious }
@@ -116,7 +116,7 @@ ecchi_uru_berro_character_template = {
 #             is_marginal = no
 #             OR = {
 #                 is_interest_group_type = ig_intelligentsia
-#                 is_interest_group_type = ig_petty_bourgeoisie
+#                 is_interest_group_type = ig_liberals
 #             }
 #         }
 #         earliest_usage_date = 1886.6.16
@@ -135,7 +135,7 @@ ecchi_vnz_lopez_character_template = {
     female = no
     religion = rel:catholic
     ideology = ideology_jingoist_leader
-    interest_group = ig_armed_forces
+    interest_group = ig_national_liberals
 	dna = ecchi_dna_narciso_lopez
     birth_date = 1797.11.2
     traits = { reckless persistent }
