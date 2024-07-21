@@ -87,7 +87,7 @@ ecchi_tib_dorzhiev_character_template = {
     female = no
     religion = rel:gelugpa
     ideology = ideology_theocrat
-    interest_group = ig_intelligentsia
+    interest_group = ig_petty_bourgeoisie
 	dna = ecchi_dna_agvan_dorzhiev
     birth_date = 1854.4.15
     traits = { experienced_diplomat surveyor pious }
@@ -99,7 +99,7 @@ ecchi_tib_dorzhiev_character_template = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_petty_bourgeoisie
                 is_interest_group_type = ig_landowners
             }
         }
