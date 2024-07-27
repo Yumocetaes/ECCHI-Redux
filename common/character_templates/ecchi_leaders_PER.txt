@@ -7,7 +7,7 @@ ecchi_per_jalal_al_din_mirza_character_template = {
 	culture = cu:persian
 	female = no
 	ideology = ideology_liberal_leader
-	interest_group = ig_intelligentsia
+	interest_group = ig_landowners
 	dna = ecchi_dna_jalal_al_din_mirza
 	birth_date = 1827.1.1
 	traits = {
@@ -24,7 +24,7 @@ ecchi_per_jalal_al_din_mirza_character_template = {
 			}
 		}
 		interest_group_trigger = {
-			is_interest_group_type = ig_intelligentsia
+			is_interest_group_type = ig_landowners
 		}
 		earliest_usage_date = 1868.1.1
 		latest_usage_date = 1872.1.1
@@ -39,7 +39,7 @@ ecchi_per_tahirih_qurrat_al_ayn_character_template = {
 	historical = yes
 	culture = cu:persian
 	female = yes
-	ideology = ideology_theocrat
+	ideology = ideology_feminist
 	interest_group = ig_devout
 	dna = ecchi_dna_tahirih_qurrat_al_ayn
 	birth_date = 1817.1.1
@@ -72,7 +72,7 @@ ecchi_per_amin_al_soltan_character_template = {
 	culture = cu:persian
 	female = no
 	ideology = ideology_moderate
-	interest_group = ig_landowners
+	interest_group = ig_petty_bourgeoisie
 	dna = ecchi_dna_amin_al_soltan
 	birth_date = 1858.1.6
 	traits = {
